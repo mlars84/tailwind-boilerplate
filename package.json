@@ -1,0 +1,28 @@
+{
+  "name": "tailwind-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for using tailwindscss with gulp config",
+  "main": "gulpfile.js",
+  "paths": {
+    "src": {
+      "css": "./src/css/"
+    },
+    "dist": {
+      "base": "./dist/",
+      "css": "./dist/css"
+    },
+    "config": {
+      "tailwind": "./tailwind.js"
+    }
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.0",
+    "tailwindcss": "^0.1.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
